@@ -1,0 +1,8 @@
+name: 'Time and zone'
+type: module
+description: 'Set time based on time zone.'
+core_version_requirement: ^8 || ^9
+configure: timeandzone.admin
+version: '1.0'
+project: 'timeandzone'
+

@@ -1,0 +1,15 @@
+tazcss:
+  css:
+    theme:
+      css/timeandzone.css: {}
+
+tazjs:
+  js:
+    js/jClocksGMT.js: {weight: -1}
+    js/jquery.rotate.js: {weight: -1}
+    js/timeandzone.js: {weight: -1}
+  dependencies: 
+    - core/drupal
+    - core/jquery
+    - core/jquery.once
+    - core/drupalSettings

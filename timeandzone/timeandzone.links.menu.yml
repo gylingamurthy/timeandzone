@@ -1,0 +1,5 @@
+timeandzone.admin:
+  title: 'Configure Time and Zone'
+  description: 'Set and configure time and zone'
+  route_name: timeandzone.admin
+  parent: system.admin_config_content
