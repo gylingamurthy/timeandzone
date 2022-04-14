@@ -304,7 +304,7 @@
                     if( options.date )
                     {
                         var dateStamp = nd.format( options.dateformat );
-                        dateStamp = dateStamp.replace(/[a-w]([1-9]|1[0-2])/, 'th')
+                        dateStamp = dateStamp.replace(/[a-w]\d?\d/, 'th')
                         $('#' + id + ' .jcgmt-date').html( dateStamp+' -- '+timeStr);
                         $('#' + id + ' .jcgmt-date').attr( 'title', dateStamp );
                     }
